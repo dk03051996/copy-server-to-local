@@ -1,0 +1,6 @@
+scp -i dashboard.pem -r ubuntu@232.22.234.44:~/dashboard-admin/.env /Users/KTPL/Downloads/doc/Exampur/env\ of\ dashboard/stage
+dashboard.pem is pem file of that server
+-r for recursive
+232.22.234.44 is your public ip of that server 
+~/dashboard-admin/env. is where from file will be copied i.e. server location
+/users/kTPL/download is where file will be stored in local we can use * if want to copy multiple files
