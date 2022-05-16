@@ -1,1 +1,4 @@
+scp -i dikshant_dashboard.pem -r /Users/ktpl/Documents/exampur_infra/cert.yml ubuntu@35.154.95.30:/home/ubuntu/important
 
+first is local destination which file you want to copy
+second is remote destination where you want to copy the file
